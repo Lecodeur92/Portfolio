@@ -242,7 +242,7 @@ body {
 @media (max-width:425px) {
     
     html {
-        font-size: 1.2rem;
+        font-size: .5rem;
     }
     
     .competence .bars {
