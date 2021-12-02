@@ -9,8 +9,8 @@ typewriter
   .pauseFor(2500)
   .typeString('Développeur web - front-end')
   .pauseFor(300)
-  .deleteChars(27)
-  .typeString('Design')
-  .typeString('Integration')
+  .deleteChars(24)
+  .typeString('<span style="color:#b62b19">Designer</span>')
+  .typeString('<span style="color:#b62b19">Integrateur</span>')
   .pauseFor(1000)
   .start();
