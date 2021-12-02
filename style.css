@@ -241,7 +241,7 @@ body {
 /* RESPONSIVE */
 @media (max-width:425px) {
     
-    html {
+    * {
         font-size: 15px;
     }
     
