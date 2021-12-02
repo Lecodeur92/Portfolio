@@ -241,8 +241,8 @@ body {
 /* RESPONSIVE */
 @media (max-width:425px) {
     
-    * {
-        font-size: 15px;
+    html {
+        font-size: 8px;
     }
     
     .competence .bars {
