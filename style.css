@@ -167,6 +167,11 @@ body {
     align-items: center;
 }
 
+.formation .graduation i,
+.service .monitor i {
+   font-size: 1.2rem;
+   color: var(--color);
+}
 
 .citation, .contact {
     background-size: cover;
