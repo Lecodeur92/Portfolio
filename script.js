@@ -10,6 +10,7 @@ typewriter
   .typeString('Développeur web - front-end')
   .pauseFor(300)
   .deleteChars(27)
-  .typeString('Je suis un amoureux du code')
+  .typeString('Design')
+  .typeString('Integration')
   .pauseFor(1000)
   .start();
