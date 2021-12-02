@@ -159,7 +159,7 @@ body {
 
 .formation .graduation i,
 .service .monitor i {
-   font-size: 4rem;
+   font-size: 1rem;
    color: var(--color);
 }
 
