@@ -8,11 +8,11 @@ var typewriter = new Typewriter(app, {
 typewriter
   .pauseFor(500)
   .typeString('Développeur web - front-end')
-  .pauseFor(3000)
+  .pauseFor(10000)
   .deleteAll(27)
   .typeString('<span style="color:#b62b19">Designer</span>')
-  .pauseFor(2000)
+  .pauseFor(7000)
   .deleteAll(8)
   .typeString('<span style="color:#b62b19">Integrateur</span>')
-  .pauseFor(2000)
+  .pauseFor(7000)
   .start();
