@@ -38,6 +38,10 @@ body {
     align-items: center;
 }
 
+.btn i {
+   color: #FFF;
+}
+
 .small {
     font-weight: lighter;
     font-size: 20px;
