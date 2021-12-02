@@ -36,7 +36,6 @@ body {
     border-radius: 4px;
     display: inline-flex;
     align-items: center;
-    box-shadow: none !important;
 }
 
 .small {
