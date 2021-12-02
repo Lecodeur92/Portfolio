@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&display=swap');
+
+:root {
+    --color: #b62b19;
+}
+
+*, ::before, ::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.color-text {
+    color: var(--color);
+}
+
+.heading .underline {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    border-radius: 7px;
+    margin: 1rem auto;
+}
+
+.btn {
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.small {
+    font-weight: lighter;
+    font-size: 20px;
+    color: var(--color);
+}
+
+.color-bg {
+    background: var(--color);
+}
+
+.card-modify {
+    background: #E3E3E3;
+}
+
+.card-modify:hover {
+    box-shadow: 0px 2px .5rem rgba(5,5,5,.2);
+}
+
+.header {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(bg-img6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.7);
+}
+
+.header .header-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.competence {
+    background: #E3E3E3;
+}
+
+.competence .bars {
+    width: 500px;
+    height: 7px;
+    background: #FFF;
+    border-radius: 7px;
+    position: relative;
+}
+
+@media (max-width:425px) {
+    .competence .bars {
+        width: 250px;
+    }
+
+    p {
+        font-size: rem;
+    }
+}
+
+.competence .bars .bar {
+    height: 100%;
+    background: var(--color);
+    border-radius: 7px;
+    position: absolute;
+}
+
+.competence .bars .html{
+    width: 80%;
+}
+
+.competence .bars .css{
+    width: 80%;
+}
+
+.competence .bars .js{
+    width: 50%;
+}
+
+.competence .bars .bootstrap {
+    width: 70%;
+}
+
+.competence .bars .vuejs{
+    width: 20%;
+}
+
+.competence .bars .wordpress{
+    width: 65%;
+}
+
+.competence .bars .github {
+    width: 22%;
+}
+
+.competence .bars .windows {
+    width: 75%;
+}
+
+.competence .bars .linux {
+    width: 25%;
+}
+
+.formation .graduation {
+    width: 50px;
+    height: 50px;
+    background: #FFF;
+    margin-top: -1.5rem;
+    border-radius: 50%;
+}
+
+.service .monitor {
+    width: 70px;
+    height: 70px;
+    background: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.citation, .contact {
+    background-size: cover;
+    position: relative;
+    background-position: left;
+}
+
+.citation {
+    height: 30vh !important;
+    background-image: url(bg-img8.jpg);
+}
+
+.contact {
+    height: 70vh !important;
+    background-image: url(bg-img1.jpg);
+}
+
+.citation-overlay, .contact-overlay {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.7);
+}
+
+.citation-text, .contact-text {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.citation-text p, .contact-text p {
+    font-size: 1.2rem;
+}
+
+.contact .heading .underline {
+    background-color: #FFF;
+}
+
+.contact .container .card {
+    background-color: transparent;
+}
+
+.contact-text p i {
+    color: var(--color);
+}
+
+.footer {
+    background-color: var(--color);
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer div div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: 1rem .2rem;
+}
+
+.footer div div i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
