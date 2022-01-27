@@ -158,8 +158,14 @@ body {
     border-radius: 50%;
 }
 
-.profil .container .card p {
+.profil .container .card .card-text {
     width: 60%;
+}
+
+@media (max-width: 425px) {
+    .profil .container .card .card-text {
+       width: 80%;
+    }
 }
 
 /* STYLE DE LA SECTION LANGAGES (OU COMPETENCES) */
@@ -294,7 +300,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55vh;
 }
 
 .citation .auteur {
@@ -303,7 +308,7 @@ body {
 
 /* STYLE DE LA SECTION CONTACTS */
 .contacts {
-    height: 65vh;
+    height: 50vh;
     background-image: url(img-contact.jpg);
     background-position: center;
     background-size: cover;
